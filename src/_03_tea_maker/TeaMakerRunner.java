@@ -10,6 +10,8 @@ public class TeaMakerRunner {
 		Cup cup = new Cup();
 		kettle.boil();
 		cup.makeTea(green, kettle.getWater());
+		cup.makeTea(pomegrante, kettle.getWater());
+		
 	}
 
 }
