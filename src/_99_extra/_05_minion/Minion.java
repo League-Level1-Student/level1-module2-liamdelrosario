@@ -4,7 +4,10 @@ public class Minion {
 
 	public Minion(String string, int i, String string2, String string3) {
 		// TODO Auto-generated constructor stub
-		
+		this.name= string;
+		this.eyes= i;
+		this.color= string2;
+		this.master= string3;
 	}
 
 		private String name; 
@@ -14,27 +17,26 @@ public class Minion {
 
 	public Object getName() {
 		// TODO Auto-generated method stub
-		return null;
+		return name;
 	}
 
 	public Object getEyes() {
 		// TODO Auto-generated method stub
-		return null;
+		return eyes;
 	}
 
 	public Object getColor() {
 		// TODO Auto-generated method stub
-		return null;
+		return color;
 	}
 
 	public void setMaster(String string) {
 		// TODO Auto-generated method stub
-		
+		this.master= string;
 	}
 
 	public Object getMaster() {
 		// TODO Auto-generated method stub
-		return null;
+		return master;
 	}
-
 }
